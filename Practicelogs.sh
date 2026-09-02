@@ -19,12 +19,12 @@ fi
 }
 
 dnf install nginx -y &>> $Log_file
-Validation $? "Installation"
+Validation $? "Installing Nginx ..."
 
 
 dnf install mysql -y &>> $Log_file
-Validation $? "Installation"
+Validation $? "Installing mysql ...."
 
 
 dnf install nodejs -y &>> $Log_file
-Validation $? "Installation"
+Validation $? "Installing nodejs ..."
